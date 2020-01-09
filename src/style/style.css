@@ -96,10 +96,17 @@
     margin-bottom: 20px;
 }
 
-.movie-list img{
+.pic-box {
+    background-color: lightgray;
+    padding: 20px;
+}
+
+.movie-list .pic-box img{
     width: 100%;
     border: 1px solid lightgray;
 }
+
+
 
 @keyframes rotation {
     from {
