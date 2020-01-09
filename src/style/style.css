@@ -93,7 +93,8 @@
 }
 
 .movie-list{
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    border: 1px solid lightgray;
 }
 
 .pic-box {
@@ -104,6 +105,22 @@
 .movie-list .pic-box img{
     width: 100%;
     border: 1px solid lightgray;
+}
+
+.desc-box {
+    padding: 40px 20px;
+}
+
+.desc-box h4{
+    font-weight: 900;
+}
+.desc-box span{
+    color: darkblue;
+    font-size: 18px;
+}
+
+.desc-box p{
+    margin-top: 20px;
 }
 
 

@@ -8,7 +8,8 @@ const initState = {
     password: '',
     name: '',
     email: '',
-    avatar: ''
+    avatar: '',
+    data: ''
 }
 
 export const store = createStore(initState)
@@ -24,5 +25,16 @@ export const actions = store => ({
 
     handleManyChanges: (state, dict) => {
         store.setState(dict);
+    },
+
+    handleGetApi: async (state, urlHeadLine) => {
+        await axios
+            .get(urlHeadLine)
+            .then( async (response) => {
+                await store.setState({data: response.data})
+            })
+            .catch((error) => {
+                console.warn(error)
+            })
     }
 })

@@ -6,9 +6,9 @@ const MoviesList = (props) =>{
     return(
         <div className="row movie-list mr-5 ml-5">
             <div className="col-lg-3 pic-box">
-                <img src={props.image} alt="movie-image"/>
+                <img src={props.image} alt="movie-poster"/>
             </div>
-            <div className="col-lg-9">
+            <div className="col-lg-9 desc-box">
                 <h4>{props.title}</h4>
                 <span>{props.year}</span>
                 <br/>

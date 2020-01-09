@@ -2,7 +2,6 @@ import React from "react";
 import axios from "axios";
 import '../style/bootstrap.min.css';
 import '../style/style.css';
-import Header from '../component/Header'
 import logo from '../logo.svg'
 import { connect } from "unistore/react";
 import { actions } from "../store/MainStore";

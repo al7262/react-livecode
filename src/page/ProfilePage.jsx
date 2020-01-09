@@ -17,7 +17,7 @@ class ProfilePage extends React.Component{
                         <div className="row mt-5">
                             <div className="col-lg-3"></div>
                             <div className="col-lg-6 profile-box shadow-sm">
-                                <img src={this.props.avatar} alt="profile-picture"/>
+                                <img src={this.props.avatar} alt="profile"/>
                                 <h4>{this.props.name}</h4>
                                 <div className="details">
                                     <p><span>Email:</span>{this.props.email}</p>
